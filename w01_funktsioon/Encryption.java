@@ -1,4 +1,4 @@
-public String Encryption(String input, int key){
+public class String Encryption(String input, int key){
     StringBuilder encrypted = new StringBuilder(input);
     //id char lauses
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
