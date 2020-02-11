@@ -13,21 +13,19 @@ public String Encryption(String input, int key){
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";        
     String alphabet2 = alphabet.toLowerCase();        
     String keyedalphabet = alphabet.substring(key) + alphabet.substring(0, key);        
-    for (int q = 0; q < encrypted.length(); q++) {            
-        char currChar = encrypted.charAt(q);            
+    for (int i = 0; i < encrypted.length(); i++) {            
+        char currChar = encrypted.charAt(i);            
         int index = alphabet.indexOf(currChar);            
         if (index != -1) {                
             char newChar = keyedalphabet.charAt(index);                
-            encrypted.setCharAt(q, newChar);            
+            encrypted.setCharAt(i, newChar);            
         }            
     index = alphabet2.indexOf(currChar);            
         if (index != -1) {                
             String keyedalphabet2 = keyedalphabet.toLowerCase();                
             char newChar = keyedalphabet2.charAt(index);                
-            encrypted.setCharAt(q, newChar);            
+            encrypted.setCharAt(i, newChar);            
         }        
 }        
 return encrypted.toString();    
 }
-
-//help from https://www.freecodecamp.org/news/how-to-code-the-caesar-cipher-an-introduction-to-basic-encryption-3bf77b4e19f7/
