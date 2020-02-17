@@ -13,6 +13,6 @@ public class KgToStones {
         double kgtostone=kg*stone;
         //output
         System.out.println( kg+ " kilograms is " +kgtostone+ " in stones");
-       
+        reader.close();
     }
 }

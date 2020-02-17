@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<w01_funktsioon_be8ea5f4>",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "w01_funktsioon_be8ea5f4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsEven<w01_funktsioon_be8ea5f4>",
+            "request": "launch",
+            "mainClass": "IsEven",
+            "projectName": "w01_funktsioon_be8ea5f4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KgToStones<w01_funktsioon_be8ea5f4>",
+            "request": "launch",
+            "mainClass": "KgToStones",
+            "projectName": "w01_funktsioon_be8ea5f4"
+        }
+    ]
+}
