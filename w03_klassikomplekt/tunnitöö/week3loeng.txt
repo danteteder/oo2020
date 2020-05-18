@@ -1,0 +1,49 @@
+javas on hoidlad - collections - andmeid saab salvestada sinna
+
+Ülesanne 1 : leia definitsioonid, saa aru mis need on.
+
+List - subinterface of Collection, it contains index-based methods to insert and delete elements. (methods include for example: void add(int index, E element), void clear()[remove all elements of list], E get(int index) - fetches element from list etc).
+List on interface - oled kohustatud kasutama neid variable neid listis
+
+Set - interface which extend Collection. It is an unordered collection of objects in which duplicate values cannot be stored, main thing on see et ei storei duplikaat values
+
+Map - map contains values accessible via keys and values, kind of like a dictionary in python, 39806110861 - isikukood (key and value). Useful if you have to search, update or delete elements on the basis of key (398606110861 - isikukood (value) muutub lotonumber (uus value))
+
+E type java - ?
+listi sisu saamiseks võib käia läbi For Each tsükliga
+integer.parseint - parseInt("20") returns 20
+string.valueof - valueOf(int i) − Returns the string representation of the int argument. valueOf(boolean b) − Returns the string representation of the boolean argument
+
+Ülesanne 2:
+Listide Funktsioonid -
+add remove, massiivi lisamine
+proovi käia listidest läbi for loopiga, vaata kuidas lisada listile, andmeid lugeda ja ära võtta.
+
+Ülesanne 3:
+Näide: tee ise kogumik ja kasutad neid collectioneid milleksi, koos listi funktsiooniga
+
+Ülesanne 4:
+Võrdlus ArrayList ja LinkedList vahel:
+ArrayList on parem data storage jaoks, kasutab dynamic array'd et store'da elements. Kui üks element on removed, kõik bits on shifted in memory.
+Linkedlist on parem data manipulation jaoks, manipulation kiirem sest LinkeList kasutab doubly linked list (pmst koos pointeritega list, mida saab edasi tagasi traversida) seega no bit shifting in memory.
+LinkedListis on 3 asja, kus ta asub, mis see on ja kus järgmine on
+
+Ülesanne 5:
+Big O Notion O(n) O(1) : ehk algoritmilised lähenemised struktuuride kohta. O(n) saja elemendiga on O(100)
+
+Miks kirjutatakse List<> list= Arraylist<>();
+
+puukujuline struktuur : sul on keskmine väärtus nt 5, kõik väiksemad asjad lähevad vasakule, suuremad asjad paremale. Kõige suuremad on puustruktuuris paremal allpool, väiksem alati vasakul allpool. Puustruktuur sp on min/max leidmiseks parem kui ArrayList, sest peab kõik läbi sortima, puustruktuuris peab nt min leidmiseks vasakule poole vaatama.
+
+Test test = new Test();
+andmetüüp Test variable nimega test = uus Objekt millele antakse väärtus
+
+List<Test> myList = new ArrayList<>();
+
+kodutöö:
+arraylist
+set
+map kasutus
+
+
+
