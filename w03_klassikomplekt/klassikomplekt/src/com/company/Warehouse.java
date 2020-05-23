@@ -2,6 +2,7 @@ package com.company;
 
 public class Warehouse {
 
+    
     private int amountOfFridges = 100;
 
     public void checkAmountOfFridges(){
