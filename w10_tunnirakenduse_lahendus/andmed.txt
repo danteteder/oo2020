@@ -1,0 +1,5 @@
+Kana, 2
+Tuvi, 3
+Panter, 5
+Siga, 1
+Siil, 8
