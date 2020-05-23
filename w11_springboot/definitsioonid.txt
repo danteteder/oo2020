@@ -1,0 +1,19 @@
+
+Even though both @RequestParam and @PathVariable is used to extract values from the HTTP request, there is a subtle difference between them,
+
+@RequestParam is used to get the request parameters from URL, also known as query parameters, while @PathVariable extracts values from URI.
+
+You can use Spring MVC's @PathVariable annotation to extract any value which is embedded in the URL itself. Spring call it a URI template, where @PathVariable is used to obtain some placeholders from the URI itself.
+
+---------------------------------------------------
+@QueryParam is used to access key/value pairs in the query string of the URL (the part after the ?). For example in the url http://example.com?q=searchterm, you can use @QueryParam("q") to get the value of q.
+
+@PathParam is used to match a part of the URL as a parameter. For example in an url of the form http://example.com/books/{bookid}, you can use @PathParam("bookid") to get the id of a book.
+
+@QueryParam: Used to get parameter as key-value pair and based on key in QueryParam can get the value of key from the URL. E.g. example.com/id=searchParam
+
+@QueryParam("id") then value will be searchParam
+
+@PathParam: Used to get the parameters(If parameters contains by URL) from the URL. E.g. abc.com/searchParam/{empId}
+
+@PathParam("empId")
